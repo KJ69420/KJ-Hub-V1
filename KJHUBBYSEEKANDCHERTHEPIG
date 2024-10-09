@@ -1,0 +1,317 @@
+local player = game.Players.LocalPlayer
+
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+
+
+local Window = OrionLib:MakeWindow({Name = "KJ Hub, By Seek and CHERTHEPIG V1", HidePremium = false, SaveConfig = true, ConfigFolder = "OrionTest"})
+
+--[[
+Name = <string> - The name of the UI.
+HidePremium = <bool> - Whether or not the user details shows Premium status or not.
+SaveConfig = <bool> - Toggles the config saving in the UI.
+ConfigFolder = <string> - The name of the folder where the configs are saved.
+IntroEnabled = <bool> - Whether or not to show the intro animation.
+IntroText = <string> - Text to show in the intro animation.
+IntroIcon = <string> - URL to the image you want to use in the intro animation.
+Icon = <string> - URL to the image you want displayed on the window.
+CloseCallback = <function> - Function to execute when the window is closed.
+]]
+
+
+local Tab = Window:MakeTab({
+	Name = "Basemoves",
+	Icon = "rbxassetid://17140853847",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+
+local Section = Tab:AddSection({
+	Name = "Basemoves"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+
+
+OrionLib:MakeNotification({
+	Name = "Welcome To KJ Hub",
+	Content = "Executed With No Errors!",
+	Image = "rbxassetid://17140853847",
+	Time = 5
+})
+
+--[[
+Title = <string> - The title of the notification.
+Content = <string> - The content of the notification.
+Image = <string> - The icon of the notification.
+Time = <number> - The duration of the notfication.
+]]
+
+
+
+
+
+Tab:AddButton({
+	Name = "Ravage",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/3Q4Bhr8d"))()
+      		print("button pressed")
+  	end    
+})
+
+--[[
+Name = <string> - The name of the button.
+Callback = <function> - The function of the button.
+]]
+
+
+Tab:AddButton({
+	Name = "Swift Sweep",
+	Callback = function() loadstring(game:HttpGet("https://pastebin.com/raw/8AARQpn8"))()
+      		print("button pressed")
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Collateral Ruin",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/gd8h1zsc"))()
+      		print("button pressed")
+  	end    
+})
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Ult Moves",
+	Icon = "rbxassetid://17140853847",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+
+local Section = Tab:AddSection({
+	Name = "Ult Moves"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+
+
+Tab:AddButton({
+	Name = "Stoic Bomb",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/hjeH5hgV"))()
+      		print("button pressed")
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "20-20-20 Dropkick",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/geUJezwR"))()
+      		print("button pressed")
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Five Seasons",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/5kA1djac"))()
+      		print("button pressed")
+  	end    
+})
+
+
+
+local Section = Tab:AddSection({
+	Name = "Extra"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+
+Tab:AddButton({
+	Name = "Ultimate",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/NVuJh8mK"))()
+      		print("button pressed")
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Spawn Animation",
+	Callback = function()
+loadstring(game:HttpGet("https://pastefy.app/Tv1QOzBj/raw"))()
+      		print("button pressed")
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Wall Combo Screen GUI",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/M3HFHaY7"))()
+      		print("button pressed")
+  	end    
+})
+
+
+
+local Tab = Window:MakeTab({
+	Name = "Weakest Dummy",
+	Icon = "rbxassetid://17140853847",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+
+local Section = Tab:AddSection({
+	Name = "Dummy's Villain arc no vfx"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+
+Tab:AddButton({
+	Name = "Dummy Does 20 20 20 Dropkick",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/83MmaAdm"))()
+      		print("button pressed")
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Dummy Does Five Seasons",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Gokou300/Gokou300/main/Dummy%20Five%20Seasons%20Real%20titan%20camera%20woman%20owner%20code"))()
+      		print("button pressed")
+  	end    
+})
+
+Tab:AddButton({
+    Name = "Dummy Does Ravage",
+	Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Gokou300/Gokou300/main/KJ%20Real%20Dummy%20Ravage%20XD%20kjscripttitancamerawoman"))()
+       print("button pressed")
+end
+})
+
+
+
+Tab:AddButton({
+	Name = "Dummy Does KJ Ult",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/vEHRmmQC"))()
+      		print("button pressed")
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Dummy Does KJ Spawn",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/c0XEvY1V"))()
+      		print("button pressed")
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Dummy Does Stoic Bomb",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/wjiAt8xe"))()
+      		print("button pressed")
+  	end    
+})
+
+
+
+Tab:AddButton({
+	Name = "Dummy Does Swift Sweep",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/UVQqsgYR"))()
+      		print("button pressed")
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "Dummy Does Collateral Ruin",
+	Callback = function()
+loadstring(game:HttpGet("https://pastebin.com/raw/RGd3axMB"))()
+      		print("button pressed")
+  	end    
+})
+
+
+local Tab = Window:MakeTab({
+	Name = "Credits",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+
+--[[
+Name = <string> - The name of the tab.
+Icon = <string> - The icon of the tab.
+PremiumOnly = <bool> - Makes the tab accessible to Sirus Premium users only.
+]]
+
+
+local Section = Tab:AddSection({
+	Name = "Credits"
+})
+
+--[[
+Name = <string> - The name of the section.
+]]
+
+
+
+Tab:AddButton({
+	Name = "seek_. On Discord",
+	Callback = function()
+
+      		print("button pressed")
+  	end    
+})
+
+
+Tab:AddButton({
+	Name = "CHERTHEPIG Seeks Friend",
+	Callback = function()
+
+      		print("button pressed")
+  	end    
+})
